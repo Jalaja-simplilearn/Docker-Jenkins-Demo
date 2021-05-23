@@ -88,6 +88,7 @@ pipeline {
         }
 
       }
+	}
 		stage(' Remove dangling images') {
 			steps{
 				script {
